@@ -43,7 +43,7 @@ function Todo() {
         onChange={(e) => setInput(e.target.value)}
       />
       <button className="add-button" onClick={todoAdd}>Add</button>
-     {todo.length >= 1 &&  <button className="edit-button" onClick={editSub}>Edit Submit</button>}
+     {todo.length >= 1 && <button className="edit-button" onClick={editSub}>Edit Submit</button>}
       <div className="todo-list">
         {todo.map((add, i) => (
           <div key={i} className="todo-item">

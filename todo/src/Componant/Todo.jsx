@@ -20,7 +20,7 @@ function Todo() {
     setTodo([]);
   };
 
-  const editItem = (ele, index) => {
+  const editItem = (ele,index) => {
     setEdit(index);
     setInput(ele);
   };

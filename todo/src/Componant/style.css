@@ -1,0 +1,40 @@
+.todo-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .todo-input {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .add-button,
+  .edit-button,
+  .delete-button,
+  .delete-all-button {
+    padding: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .todo-list {
+    margin-top: 20px;
+  }
+  
+  .todo-item {
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .delete-button,
+  .edit-button {
+    margin-left: 5px;
+  }
+  
